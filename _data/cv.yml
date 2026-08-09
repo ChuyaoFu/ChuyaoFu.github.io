@@ -1,0 +1,146 @@
+cv:
+  name: Chuyao FU
+  label: Undergraduate Researcher in Embodied AI and Robot Learning
+  email: fucy2023@berkeley.edu
+  location: Shenzhen, China
+  image: ""
+  summary: ""
+  research_interests: "World Models, Embodied AI, Vision-Language-Action Models, Robot Learning, Autonomous Driving"
+
+  social_networks:
+    - network: GitHub
+      username: ChuyaoFu
+
+  address:
+    city: Shenzhen
+    region: Guangdong
+    countryCode: CN
+
+  sections:
+    Education:
+      - institution: Southern University of Science and Technology (SUSTech)
+        location: Shenzhen, China
+        url: https://www.sustech.edu.cn/en/
+        area: Electronic Information Engineering
+        studyType: Bachelor of Engineering
+        start_date: Sept. 2023
+        end_date: Jun. 2027
+        highlights:
+          - "GPA: 3.90/4.00 · Rank: 3/46"
+          - "Selected Coursework: Data Structures and Algorithm Analysis, Probability and Statistics, Machine Learning, Robotic Motion and Control, Digital Signal Processing, Signals and Systems, Analog Circuits, Digital Circuits"
+
+    Research Experience:
+      - company: Robotics and Computer Vision Lab, SUSTech
+        position: Undergraduate Researcher
+        location: Shenzhen, China
+        start_date: Sept. 2024
+        end_date: Present
+        summary: "Supervisor: Prof. Hong Zhang"
+        highlights:
+          - "Topics: Social Navigation and Autonomous Driving"
+          - "Contributed to TPT-Bench data collection for social navigation; gained hands-on experience with ROS bag processing, multisensor synchronization, and data preprocessing (paper under review at IJRR)"
+          - "Independently proposed ProDrive, a proactive autonomous driving framework jointly training a driving planner and BEV world model via ego-environment co-evolution"
+          - "Demonstrated stronger performance than prior world-model-based driving frameworks on NAVSIM v1"
+          - "First author; led method design, experiments, and manuscript preparation. Accepted by CVPR 2026 GigaBrain Challenge Workshop"
+
+      - company: HMI Lab, School of Computer Science, Peking University
+        position: Undergraduate Researcher
+        location: Beijing, China
+        start_date: Jun. 2025
+        end_date: Present
+        summary: "Supervisor: Prof. Shanghang Zhang"
+        highlights:
+          - "Topics: Vision-Language-Action Models, World Models, and Latent-Space Simulation"
+          - "Leading Token-World, which studies direct action-conditioned simulation for VLA policies in compact visual-token space"
+          - "Leading VA-CLIP, a reference-free verifier that learns action-video compatibility for evaluating embodied world models"
+          - "First author on both ongoing manuscripts; responsible for method design, experiments, and manuscript preparation"
+
+      - company: Beijing Academy of Artificial Intelligence (BAAI)
+        position: Research Intern, Embodied Multimodal Large Models Research Center
+        location: Beijing, China
+        start_date: Jun. 2025
+        end_date: Sept. 2025
+        summary: "Mentor: Xiaojie Zhang"
+        highlights:
+          - "Topic: Reinforcement Learning for VLA Models and Flow-Based Robot Policies"
+          - "Reproduced representative VLA-RL and robot policy post-training frameworks including RLinf, SimpleVLA-RL, RL4VLA, and DSRL"
+          - "Investigated RL objectives for flow-based robot policies, focusing on training stability, inference efficiency, and compatibility with modern VLA backbones"
+          - "Contributed to the FORCE project on efficient reinforcement fine-tuning for VLA models; co-authored the public arXiv preprint"
+
+    Work Experience:
+      - company: Muka Robotics
+        position: Research Intern
+        location: China
+        start_date: "2026"
+        end_date: Present
+        highlights:
+          - "Topics: World-model representation learning and foundation-model pretraining for physical intelligence"
+          - "Developed a physical-world-model demo in which a robot plays tabletop curling against a human"
+          - "Integrated learned predictive representations with a real-robot interaction loop for closed-loop decision-making"
+
+      - company: XtalPi
+        position: Research Intern, Future Chemistry Department
+        location: Shenzhen, China
+        start_date: Mar. 2026
+        end_date: Jun. 2026
+        highlights:
+          - "Topic: Humanoid Robots for Laboratory Automation; VLA Policy Learning and Deployment"
+          - "Trained VLA policies for humanoid robot manipulation in laboratory environments, focusing on tool use and structured object interaction"
+          - "Deployed policies on real humanoid robot platforms and integrated perception, policy inference, and control for real-world execution"
+          - "Developed manipulation capabilities for representative laboratory instruments in automated bio-lab scenarios"
+          - "Conducted iterative real-robot evaluation and failure analysis to improve deployment robustness"
+
+      - company: Beijing Academy of Artificial Intelligence (BAAI)
+        position: Research Intern, Embodied Multimodal Large Models Research Center
+        location: Beijing, China
+        start_date: Jun. 2025
+        end_date: Sept. 2025
+        highlights:
+          - "Topic: Pretraining Data Pipelines for VLA and Vision-Language Models"
+          - "Processed embodied datasets including AgiBot-World and DROID for large-scale VLA pretraining"
+          - "Performed action normalization, action tokenization, and dataset reorganization into structured JSON training format"
+          - "Contributed to VLM data preprocessing by adding grounding boxes as object-aware visual-language supervision"
+
+    Selected Projects:
+      - company: Project Lead
+        position: Raspberry Pi-based Robotic Arm Control
+        location: ""
+        start_date: Nov. 2025
+        end_date: Jan. 2026
+        highlights:
+          - "Developed a Raspberry Pi-based control system for a 3D-printed robotic arm, using GPIO PWM signals to actuate an SG52 servo for gripper control and four-phase eight-step drive signals for 4-phase 5-wire stepper motors at the arm joints"
+          - "Implemented two interaction modes: infrared remote control via lirc and camera-based gesture control using MediaPipe for real-time arm manipulation"
+
+      - company: Project Lead
+        position: Desktop Manipulation via 3D Diffusion Policy
+        location: ""
+        start_date: Mar. 2025
+        end_date: Jun. 2025
+        highlights:
+          - "Built and deployed a real-world 3D Diffusion Policy (DP3) pipeline for tabletop manipulation, including multimodal data collection, camera calibration, point-cloud preprocessing, policy training, and online inference"
+          - "Validated the system on real tasks including lemon-in-bowl placement, bowl lifting, and drawer pushing using point-cloud observations from a RealSense D435 and an ARX X5 robotic arm"
+
+    Leadership and Service:
+      - company: Project Lead
+        position: Class Leader, Class 2303
+        location: ""
+        start_date: "2024"
+        end_date: "2025"
+        highlights:
+          - "Led class operations and activities, including event planning, logistics coordination, routine administration, and award application materials"
+          - "Class received honors including Excellent Undergraduate Academic Style, Best Sports Team, and Best Popularity Class"
+
+      - company: House Division Lead
+        position: Street Dance Club
+        location: ""
+        start_date: "2024"
+        end_date: "2025"
+        highlights:
+          - "Led the House division by coordinating weekly training with instructors and organizing two campus street dance performances, including rehearsal planning and member coordination"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Working proficiency, TOEFL iBT 100"

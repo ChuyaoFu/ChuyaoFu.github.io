@@ -1,0 +1,34 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+node_modules/
+vendor
+
+# Local CV sources are intentionally kept out of the public website repository.
+chuyao_cv_sample (3).tex
+assets/pdf/cv.pdf
+
+# Unused upstream-theme demos and documentation assets.
+lighthouse_results/
+readme_preview/
+assets/video/tutorial_al_folio.mp4
+assets/img/prof_pic.jpg
+assets/img/prof_pic_color.png
+assets/pdf/example_pdf.pdf
+assets/rendercv/rendercv_output/
+_books/
+_teachings/
+_pages/blog.md
+_pages/books.md
+_pages/dropdown.md
+_pages/profiles.md
+_pages/teaching.md
