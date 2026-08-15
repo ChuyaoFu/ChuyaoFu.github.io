@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Research projects in world models, robot learning, and embodied AI.",
+          description: "Open-source collaborations and embodied-AI systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -42,6 +42,9 @@ ninja.data = [{
           section: "News",},{id: "news-force-our-work-on-efficient-reinforcement-fine-tuning-for-vla-models-is-now-available-on-arxiv",
           title: 'FORCE, our work on efficient reinforcement fine-tuning for VLA models, is now available...',
           description: "",
+          section: "News",},{id: "news-joined-muka-robotics-as-a-research-intern-working-on-world-model-representation-learning-and-foundational-world-action-model-pretraining",
+          title: 'Joined Muka Robotics as a research intern, working on world-model representation learning and...',
+          description: "",
           section: "News",},{id: "news-our-latest-action-conditioned-world-model-code-named-sisyphusworld-ranked-second-on-the-worldarena-leaderboard-and-was-featured-in-media-report-1-and-media-report-2",
           title: 'Our latest action-conditioned world model, code-named SisyphusWorld, ranked second on the WorldArena leaderboard...',
           description: "",
@@ -50,36 +53,11 @@ ninja.data = [{
           description: "A collaborative survey and open-source knowledge base on representations for world models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-prodrive",
-          title: 'ProDrive',
-          description: "Proactive autonomous-driving planning through ego-environment co-evolution.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_prodrive/";
-            },},{id: "projects-token-world",
-          title: 'Token-World',
-          description: "Direct world-model simulation for vision-language-action policies in compact visual-token space.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_token_world/";
             },},{id: "projects-human-robot-tabletop-curling",
           title: 'Human–Robot Tabletop Curling',
           description: "A real-robot demo that applies a physical world model to interactive gameplay against a human.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_tabletop_curling/";
-            },},{id: "projects-learning-action-video-compatibility",
-          title: 'Learning Action-Video Compatibility',
-          description: "Reference-free evaluation and selection of imagined rollouts for embodied world models.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_va_clip/";
-            },},{id: "projects-axisfield-gs",
-          title: 'AxisField-GS',
-          description: "Feed-forward articulation recovery from single-state semantic Gaussian assets.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_axisfield_gs/";
-            },},{id: "projects-mirrorsentinel",
-          title: 'MirrorSentinel',
-          description: "Suppressing mirror-induced ghost structures in indoor LiDAR maps with visual depth.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_mirrorsentinel/";
             },},{id: "projects-robobrain-x0",
           title: 'RoboBrain-X0',
           description: "A cross-embodiment vision-language-action model trained across heterogeneous robot platforms.",
