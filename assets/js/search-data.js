@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Selected research and embodied-AI systems.",
+          description: "Research projects in world models, robot learning, and embodied AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,21 +30,24 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-joined-as-an-undergraduate-research-intern-at-pku-hmi-lab-and-embodied-multimodal-large-model-research-center-at-baai",
-          title: 'Joined as an undergraduate research intern at PKU HMI Lab and Embodied Multimodal...',
+        },{id: "news-joined-pku-hmi-lab-and-the-embodied-multimodal-large-model-research-center-at-baai-as-an-undergraduate-research-intern",
+          title: 'Joined PKU HMI Lab and the Embodied Multimodal Large Model Research Center at...',
           description: "",
-          section: "News",},{id: "news-prodrive-and-echoarena-are-accepted-by-cvpr-2026-gigabrain-challenge-workshop",
-          title: 'ProDrive and EchoArena are accepted by CVPR 2026 GigaBrain Challenge Workshop!',
+          section: "News",},{id: "news-prodrive-and-echoarena-were-accepted-to-the-cvpr-2026-gigabrain-challenge-workshop",
+          title: 'ProDrive and EchoArena were accepted to the CVPR 2026 GigaBrain Challenge Workshop.',
           description: "",
-          section: "News",},{id: "news-mask-world-model-is-accepted-by-icml-2026",
-          title: 'Mask World Model is accepted by ICML 2026.',
+          section: "News",},{id: "news-mask-world-model-was-accepted-to-icml-2026",
+          title: 'Mask World Model was accepted to ICML 2026.',
           description: "",
           section: "News",},{id: "news-force-our-work-on-efficient-reinforcement-fine-tuning-for-vla-models-is-now-available-on-arxiv",
           title: 'FORCE, our work on efficient reinforcement fine-tuning for VLA models, is now available...',
           description: "",
-          section: "News",},{id: "projects-desktop-manipulation-via-3d-diffusion-policy",
-          title: 'Desktop Manipulation via 3D Diffusion Policy',
-          description: "Implementation of 3D diffusion policy for desktop manipulation tasks, including environment setup, data collection, policy training, and evaluation.",
+          section: "News",},{id: "news-our-latest-action-conditioned-world-model-code-named-sisyphusworld-ranked-second-on-the-worldarena-leaderboard-and-was-featured-in-media-report-1-and-media-report-2",
+          title: 'Our latest action-conditioned world model, code-named SisyphusWorld, ranked second on the WorldArena leaderboard...',
+          description: "",
+          section: "News",},{id: "projects-awesome-representation-for-world-models",
+          title: 'Awesome Representation for World Models',
+          description: "A collaborative survey and open-source knowledge base on representations for world models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-prodrive",
@@ -62,6 +65,26 @@ ninja.data = [{
           description: "A real-robot demo that applies a physical world model to interactive gameplay against a human.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_tabletop_curling/";
+            },},{id: "projects-learning-action-video-compatibility",
+          title: 'Learning Action-Video Compatibility',
+          description: "Reference-free evaluation and selection of imagined rollouts for embodied world models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_va_clip/";
+            },},{id: "projects-axisfield-gs",
+          title: 'AxisField-GS',
+          description: "Feed-forward articulation recovery from single-state semantic Gaussian assets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_axisfield_gs/";
+            },},{id: "projects-mirrorsentinel",
+          title: 'MirrorSentinel',
+          description: "Suppressing mirror-induced ghost structures in indoor LiDAR maps with visual depth.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_mirrorsentinel/";
+            },},{id: "projects-robobrain-x0",
+          title: 'RoboBrain-X0',
+          description: "A cross-embodiment vision-language-action model trained across heterogeneous robot platforms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_robobrain_x0/";
             },},{
         id: 'social-email',
         title: 'email',
