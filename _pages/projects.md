@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects in world models, robot learning, and embodied AI.
+description: Open-source collaborations and embodied-AI systems.
 nav: true
 nav_order: 2
-display_categories: [research, open-source, systems]
+display_categories: [open-source, systems]
 horizontal: false
 ---
 
