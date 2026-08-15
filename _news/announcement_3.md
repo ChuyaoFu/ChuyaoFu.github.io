@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**ProDrive** and **EchoArena** are accepted by [CVPR 2026 GigaBrain Challenge Workshop](https://gigaai-research.github.io/GigaBrain-Challenge-2026/)!
+**ProDrive** and **EchoArena** were accepted to the [CVPR 2026 GigaBrain Challenge Workshop](https://gigaai-research.github.io/GigaBrain-Challenge-2026/).

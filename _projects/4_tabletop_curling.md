@@ -2,7 +2,7 @@
 layout: page
 title: Human–Robot Tabletop Curling
 description: A real-robot demo that applies a physical world model to interactive gameplay against a human.
-importance: 3
+importance: 1
 category: systems
 ---
 

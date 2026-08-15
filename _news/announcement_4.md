@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Mask World Model** is accepted by ICML 2026.
+**Mask World Model** was accepted to ICML 2026.
