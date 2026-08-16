@@ -1,146 +1,184 @@
 cv:
-  name: Chuyao FU
-  label: Undergraduate Researcher in Embodied AI and Robot Learning
-  email: fucy2023@berkeley.edu
-  location: Shenzhen, China
-  image: ""
-  summary: ""
-  research_interests: "World Models, Embodied AI, Vision-Language-Action Models, Robot Learning, Autonomous Driving"
+  name: Chuyao Fu (Troy)
+  email: fucy2023@mail.sustech.edu.cn
+  phone: +86 153 4733 9211
+  website: https://chuyaofu.github.io/
 
   social_networks:
     - network: GitHub
       username: ChuyaoFu
-
-  address:
-    city: Shenzhen
-    region: Guangdong
-    countryCode: CN
+      url: https://github.com/ChuyaoFu
 
   sections:
     Education:
       - institution: Southern University of Science and Technology (SUSTech)
-        location: Shenzhen, China
-        url: https://www.sustech.edu.cn/en/
-        area: Electronic Information Engineering
-        studyType: Bachelor of Engineering
-        start_date: Sept. 2023
+        studyType: B.Eng. in Electronic Information Engineering
+        start_date: Sep. 2023
         end_date: Jun. 2027
         highlights:
           - "GPA: 3.90/4.00 · Rank: 3/46"
-          - "Selected Coursework: Data Structures and Algorithm Analysis, Probability and Statistics, Machine Learning, Robotic Motion and Control, Digital Signal Processing, Signals and Systems, Analog Circuits, Digital Circuits"
+          - "**Selected Coursework:** Data Structures and Algorithm Analysis, Probability and Statistics, Machine Learning, Robotic Motion and Control, Digital Signal Processing, Signals and Systems, Analog Circuits, Digital Circuits"
+
+      - institution: University of California, Berkeley
+        studyType: Visiting Student
+        start_date: Aug. 2026
+        end_date: Dec. 2026
 
     Research Experience:
-      - company: Robotics and Computer Vision Lab, SUSTech
-        position: Undergraduate Researcher
-        location: Shenzhen, China
-        start_date: Sept. 2024
-        end_date: Present
-        summary: "Supervisor: Prof. Hong Zhang"
-        highlights:
-          - "Topics: Social Navigation and Autonomous Driving"
-          - "Contributed to TPT-Bench data collection for social navigation; gained hands-on experience with ROS bag processing, multisensor synchronization, and data preprocessing (paper under review at IJRR)"
-          - "Independently proposed ProDrive, a proactive autonomous driving framework jointly training a driving planner and BEV world model via ego-environment co-evolution"
-          - "Demonstrated stronger performance than prior world-model-based driving frameworks on NAVSIM v1"
-          - "First author; led method design, experiments, and manuscript preparation. Accepted by CVPR 2026 GigaBrain Challenge Workshop"
-
       - company: HMI Lab, School of Computer Science, Peking University
         position: Undergraduate Researcher
-        location: Beijing, China
         start_date: Jun. 2025
         end_date: Present
         summary: "Supervisor: Prof. Shanghang Zhang"
         highlights:
-          - "Topics: Vision-Language-Action Models, World Models, and Latent-Space Simulation"
-          - "Leading Token-World, which studies direct action-conditioned simulation for VLA policies in compact visual-token space"
-          - "Leading VA-CLIP, a reference-free verifier that learns action-video compatibility for evaluating embodied world models"
-          - "First author on both ongoing manuscripts; responsible for method design, experiments, and manuscript preparation"
+          - "Leading **Token-World**, which studies direct action-conditioned simulation for VLA policies in compact visual-token space without intermediate RGB reconstruction."
+          - "Leading **VA-CLIP**, a reference-free verifier that learns action-video compatibility to evaluate and select embodied world-model rollouts."
+          - "Contributed to **LJM**, an action-conditioned world model that predicts robot-environment interaction latents before generating future videos."
+          - "First author on both under-review manuscripts; responsible for problem formulation, method design, experiments, and manuscript preparation."
 
-      - company: Beijing Academy of Artificial Intelligence (BAAI)
-        position: Research Intern, Embodied Multimodal Large Models Research Center
-        location: Beijing, China
-        start_date: Jun. 2025
-        end_date: Sept. 2025
-        summary: "Mentor: Xiaojie Zhang"
+      - company: Robotics and Computer Vision Lab, SUSTech
+        position: Undergraduate Researcher
+        start_date: Sep. 2024
+        end_date: Present
+        summary: "Supervisors: Prof. Hong Zhang and Prof. Max Q.-H. Meng"
         highlights:
-          - "Topic: Reinforcement Learning for VLA Models and Flow-Based Robot Policies"
-          - "Reproduced representative VLA-RL and robot policy post-training frameworks including RLinf, SimpleVLA-RL, RL4VLA, and DSRL"
-          - "Investigated RL objectives for flow-based robot policies, focusing on training stability, inference efficiency, and compatibility with modern VLA backbones"
-          - "Contributed to the FORCE project on efficient reinforcement fine-tuning for VLA models; co-authored the public arXiv preprint"
+          - "Proposed **ProDrive**, a proactive autonomous-driving framework that jointly trains a planner and a BEV world model through ego-environment co-evolution; first author and lead researcher."
+          - "Co-led **AxisField-GS**, a feed-forward articulation-recovery framework that predicts dense Gaussian-level motion fields and recovers revolute joint axes from single-state semantic 3DGS assets; co-first author."
 
-    Work Experience:
+    Selected Publications and Manuscripts:
+      - title: "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution"
+        url: https://arxiv.org/abs/2604.25329
+        summary: "**Chuyao Fu**, Shengzhe Gan, Zhuoli Ouyang, Yuhan Rui, Xiaowei Chi, Sirui Han, Jiankun Wang, Hong Zhang"
+        publisher: CVPR 2026 GigaBrain Challenge Workshop
+
+      - title: Learning Action-Video Compatibility as a Reference-Free Verifier for Embodied World Models
+        summary: "**Chuyao Fu**, Xiaojie Zhang, Xiaowei Chi, Rongyu Zhang, Yuhan Rui, Jiajun Cao, Yike Guo, Sirui Han, Shanghang Zhang"
+        publisher: Under review
+
+      - title: "Token-World: Direct World Model Simulator for Vision-Language-Action Models"
+        summary: "**Chuyao Fu**, Xiaowei Chi, Haoran Li, Yuhan Rui, Zezhong Qian, Yu-Kai Wang, Xiaojie Zhang, Yunfan Lou, Hongyang Cheng, Yike Guo, Sirui Han, Shanghang Zhang"
+        publisher: Under review
+
+      - title: "AxisField-GS: Feed-Forward Articulation Recovery from Single-State Semantic Gaussian Assets"
+        summary: "Shengzhe Gan<sup>*</sup>, **Chuyao Fu**<sup>*</sup>, Yugong Wang, Guangcheng Chen, Hong Zhang. <sup>*</sup>Equal contribution"
+        publisher: Under review
+
+      - title: "Mask World Model: Predicting What Matters for Robust Robot Policy Learning"
+        url: https://arxiv.org/abs/2604.19683
+        summary: "Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, Rongyu Zhang, Yaoxu Lyu, Guoyu Song, **Chuyao Fu**, Haoxuan Xu, Pengwei Wang, Shanghang Zhang"
+        publisher: ICML 2026
+
+      - title: "EchoArena: Mutual Benchmarking of World Models and VLA Policies"
+        summary: "Yu-Kai Wang, Kevin Zhang, Xiaowei Chi, Tianxing Chen, Siqiao Huang, **Chuyao Fu**, Tiecheng Guo, Peidong Jia, Yan Qin, Kuangzhi Ge, Siyuan Qian, Weishi Mi, Zezhong Qian, Jiajun Li, Qingpo Wuwu, Shanghang Zhang, Jian Tang"
+        publisher: CVPR 2026 GigaBrain Challenge Workshop
+
+      - title: "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation"
+        url: https://arxiv.org/abs/2606.26006
+        summary: "Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, **Chuyao Fu**, Yaoxu Lyu, Xiaojie Zhang, Haoran Li, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang"
+        publisher: arXiv preprint, 2026
+
+      - title: "LJM: A Latent Joint-conditional Model for Action-Conditioned Embodied World Model"
+        summary: "Kuangzhi Ge, Yu-Kai Wang, Yuhan Rui, Xiaojie Zhang, Hao Chen, Jiaming Liu, **Chuyao Fu**, Zhi Yang Chen, Tianze Zhou, Zhuoqun Wu, Athend Zhuoming Zhong, Chak-Wing Mak, Kevin Zhang, Xiaowei Chi, Shanghang Zhang, Sirui Han"
+        publisher: Under review
+
+    Industry Experience:
       - company: Muka Robotics
         position: Research Intern
-        location: China
-        start_date: "2026"
+        location: Beijing
+        start_date: May. 2026
         end_date: Present
         highlights:
-          - "Topics: World-model representation learning and foundation-model pretraining for physical intelligence"
-          - "Developed a physical-world-model demo in which a robot plays tabletop curling against a human"
-          - "Integrated learned predictive representations with a real-robot interaction loop for closed-loop decision-making"
+          - "Developing representation learning techniques and data cleaning pipeline for foundational world-action-model pretraining."
+          - "Built a physical world model demo in which a robot observes, predicts, and plays tabletop curling against a human."
 
       - company: XtalPi
         position: Research Intern, Future Chemistry Department
-        location: Shenzhen, China
+        location: Shenzhen
         start_date: Mar. 2026
-        end_date: Jun. 2026
+        end_date: Apr. 2026
         highlights:
-          - "Topic: Humanoid Robots for Laboratory Automation; VLA Policy Learning and Deployment"
-          - "Trained VLA policies for humanoid robot manipulation in laboratory environments, focusing on tool use and structured object interaction"
-          - "Deployed policies on real humanoid robot platforms and integrated perception, policy inference, and control for real-world execution"
-          - "Developed manipulation capabilities for representative laboratory instruments in automated bio-lab scenarios"
-          - "Conducted iterative real-robot evaluation and failure analysis to improve deployment robustness"
+          - "Trained and deployed VLA policies, including LingBot-VLA, π0, and π0.5, for robot manipulation in laboratory-automation settings."
+          - "Integrated perception, policy inference, and control on real robot platforms; conducted iterative evaluation and ablations to diagnose deployment failures."
 
-      - company: Beijing Academy of Artificial Intelligence (BAAI)
+      - company: Beijing Academy of Artificial Intelligence
         position: Research Intern, Embodied Multimodal Large Models Research Center
-        location: Beijing, China
+        location: Beijing
         start_date: Jun. 2025
-        end_date: Sept. 2025
+        end_date: Sep. 2025
         highlights:
-          - "Topic: Pretraining Data Pipelines for VLA and Vision-Language Models"
-          - "Processed embodied datasets including AgiBot-World and DROID for large-scale VLA pretraining"
-          - "Performed action normalization, action tokenization, and dataset reorganization into structured JSON training format"
-          - "Contributed to VLM data preprocessing by adding grounding boxes as object-aware visual-language supervision"
+          - "Processed large-scale embodied datasets, including AgiBot-World and DROID, for VLA pretraining; implemented action normalization, tokenization, and structured training-data conversion."
+          - "Reproduced representative VLA reinforcement-learning and robot-policy post-training frameworks; contributed to **FORCE** and the cross-embodiment **RoboBrain-X0** project."
 
     Selected Projects:
-      - company: Project Lead
-        position: Raspberry Pi-based Robotic Arm Control
-        location: ""
-        start_date: Nov. 2025
-        end_date: Jan. 2026
+      - company: Open-Source Literature Curation
+        position: Awesome Representation for World Models
+        url: https://github.com/ChuyaoFu/Awesome-Representation-for-World-Models
+        start_date: Aug. 2026
+        end_date: Present
+        summary: Project Lead
         highlights:
-          - "Developed a Raspberry Pi-based control system for a 3D-printed robotic arm, using GPIO PWM signals to actuate an SG52 servo for gripper control and four-phase eight-step drive signals for 4-phase 5-wire stepper motors at the arm joints"
-          - "Implemented two interaction modes: infrared remote control via lirc and camera-based gesture control using MediaPipe for real-time arm manipulation"
+          - "Currently lead a collaborative survey of representations for world models, coordinating lab members to curate literature around state and transition representations."
+          - "Designed a Cloudflare-based webpage workflow spanning literature review, taxonomy-based classification, and pull-request review for multi-contributor maintenance."
 
-      - company: Project Lead
-        position: Desktop Manipulation via 3D Diffusion Policy
-        location: ""
-        start_date: Mar. 2025
-        end_date: Jun. 2025
+      - company: Open-Source VLA Model
+        position: "RoboBrain-X0: Cross-Embodiment Vision-Language-Action Model"
+        url: https://github.com/FlagOpen/RoboBrain-X0
+        start_date: Jun. 2025
+        end_date: Sep. 2025
+        summary: Contributor
         highlights:
-          - "Built and deployed a real-world 3D Diffusion Policy (DP3) pipeline for tabletop manipulation, including multimodal data collection, camera calibration, point-cloud preprocessing, policy training, and online inference"
-          - "Validated the system on real tasks including lemon-in-bowl placement, bowl lifting, and drawer pushing using point-cloud observations from a RealSense D435 and an ARX X5 robotic arm"
+          - "Contributed to **RoboBrain-X0**, a unified VLA model for cross-embodiment action generation that supports heterogeneous robot platforms through a shared action-token representation."
+          - "Focused on the data pipeline, processing AgiBot-World and DROID with action normalization, tokenization, and structured conversion for large-scale VLA pretraining."
 
     Leadership and Service:
-      - company: Project Lead
+      - company: Class Committee
         position: Class Leader, Class 2303
-        location: ""
         start_date: "2024"
         end_date: "2025"
         highlights:
-          - "Led class operations and activities, including event planning, logistics coordination, routine administration, and award application materials"
-          - "Class received honors including Excellent Undergraduate Academic Style, Best Sports Team, and Best Popularity Class"
+          - "Led class operations and activities, including event planning, logistics coordination, routine administration, and award application materials; the class received honors including *Excellent Undergraduate Academic Style*, *Best Sports Team*, and *Best Popularity Class*."
 
-      - company: House Division Lead
-        position: Street Dance Club
-        location: ""
+      - company: Student Organization
+        position: House Division Lead, Street Dance Club
         start_date: "2024"
         end_date: "2025"
         highlights:
-          - "Led the House division by coordinating weekly training with instructors and organizing two campus street dance performances, including rehearsal planning and member coordination"
+          - "Led the House division by coordinating weekly training with instructors and organizing two campus street dance performances, including rehearsal planning and member coordination."
 
-    Languages:
-      - name: Chinese
-        summary: "Native speaker"
+    Honors and Awards:
+      - title: First Prize, Outstanding Student Award
+        date: Sep. 2025
+        awarder: SUSTech (top 5%; RMB 5,000 scholarship)
 
-      - name: English
-        summary: "Working proficiency, TOEFL iBT 100"
+      - title: Third Prize, Outstanding Student Award
+        date: Sep. 2024
+        awarder: SUSTech (top 25%; RMB 1,000 scholarship)
+
+      - title: First-Class Admission Scholarship
+        date: Sep. 2023
+        awarder: SUSTech (top 10%; RMB 50,000 scholarship)
+
+      - title: Gold Medal, Chinese Chemistry Olympiad
+        date: Nov. 2022
+        awarder: Chinese Chemical Society (top 150 nationwide)
+
+    Skills:
+      - name: Programming and ML
+        keywords:
+          - Python
+          - PyTorch
+          - Linux
+          - Git
+
+      - name: Robotics
+        keywords:
+          - ROS
+          - real-robot VLA deployment
+          - camera calibration
+          - 3D vision
+          - point-cloud processing
+
+      - name: Languages
+        keywords:
+          - Chinese (native)
+          - "English (TOEFL iBT 100: R25, L25, S23, W27)"

@@ -33,14 +33,14 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
 
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+
             {% if entry.publisher %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
                 <em>{{ entry.publisher }}</em>
               </h6>
-            {% endif %}
-
-            {% if entry.summary %}
-              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
           </div>
         {% else %}
@@ -53,14 +53,14 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
 
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+
             {% if entry.publisher %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
                 <em>{{ entry.publisher }}</em>
               </h6>
-            {% endif %}
-
-            {% if entry.summary %}
-              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
           </div>
         {% endif %}
