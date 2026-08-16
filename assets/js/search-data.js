@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Open-source collaborations and embodied-AI systems.",
+        },{id: "nav-industry-experience",
+          title: "industry experience",
+          description: "Industry research experience in embodied AI, VLA systems, and world models.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
