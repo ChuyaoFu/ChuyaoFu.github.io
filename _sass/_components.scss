@@ -161,6 +161,216 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Industry experience
+
+.industry-intro {
+  max-width: 760px;
+  margin: -0.25rem 0 2rem;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.industry-experience {
+  display: grid;
+  gap: 2rem;
+}
+
+.industry-card {
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+}
+
+.industry-card__header {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.industry-logo-panel {
+  display: flex;
+  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  background: #fff;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+    max-height: 92px;
+    object-fit: contain;
+  }
+}
+
+.industry-logo-panel--dark {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: #000;
+}
+
+.industry-card__heading {
+  h2 {
+    margin: 0.1rem 0 0.3rem;
+    font-size: clamp(1.45rem, 3vw, 2rem);
+    line-height: 1.2;
+  }
+}
+
+.industry-eyebrow {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.industry-role {
+  margin: 0 0 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.industry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.9rem;
+
+  span {
+    display: inline-flex;
+    gap: 0.4rem;
+    align-items: center;
+  }
+
+  i {
+    color: var(--global-text-color-light);
+  }
+}
+
+.industry-card__body {
+  padding: 1.5rem;
+}
+
+.industry-workstreams {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.industry-workstreams--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.industry-workstream {
+  padding: 1.15rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background: var(--global-bg-color);
+
+  h3 {
+    margin: 0 0 0.55rem;
+    font-size: 1.08rem;
+  }
+
+  p:not(.industry-workstream__index) {
+    margin-bottom: 0.85rem;
+    color: var(--global-text-color-light);
+    line-height: 1.65;
+  }
+}
+
+.industry-workstream__index {
+  margin: 0 0 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.industry-link {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  padding: 0.42rem 0.7rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  &:hover {
+    border-color: var(--global-text-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+}
+
+.industry-media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.industry-media-grid--single {
+  grid-template-columns: minmax(0, 680px);
+}
+
+.industry-video-card {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background: #000;
+
+  video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    object-fit: contain;
+  }
+
+  figcaption {
+    padding: 0.72rem 0.9rem;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color-light);
+    font-size: 0.84rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .industry-card__header {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .industry-logo-panel {
+    min-height: 100px;
+  }
+
+  .industry-card__body {
+    padding: 1rem;
+  }
+
+  .industry-workstreams,
+  .industry-media-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 // Repositories
 
 @media (min-width: 768px) {
