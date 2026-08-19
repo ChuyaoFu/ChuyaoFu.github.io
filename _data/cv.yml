@@ -19,11 +19,6 @@ cv:
           - "GPA: 3.90/4.00 · Rank: 3/46"
           - "**Selected Coursework:** Data Structures and Algorithm Analysis, Probability and Statistics, Machine Learning, Robotic Motion and Control, Digital Signal Processing, Signals and Systems, Analog Circuits, Digital Circuits"
 
-      - institution: University of California, Berkeley
-        studyType: Visiting Student
-        start_date: Aug. 2026
-        end_date: Dec. 2026
-
     Research Experience:
       - company: HMI Lab, School of Computer Science, Peking University
         position: Undergraduate Researcher
@@ -85,7 +80,7 @@ cv:
       - company: Muka Robotics
         position: Research Intern
         location: Beijing
-        start_date: May. 2026
+        start_date: Jul. 2026
         end_date: Present
         highlights:
           - "Developing representation learning techniques and data cleaning pipeline for foundational world-action-model pretraining."
