@@ -11,17 +11,10 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Publications and ongoing research manuscripts.",
+          description: "Published and publicly available research papers.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-industry-experience",
-          title: "industry experience",
-          description: "Industry research experience in embodied AI, VLA systems, and world models.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -30,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-joined-pku-hmi-lab-and-the-embodied-multimodal-large-model-research-center-at-baai-as-an-undergraduate-research-intern",
-          title: 'Joined PKU HMI Lab and the Embodied Multimodal Large Model Research Center at...',
+        },{id: "news-joined-pku-hmi-lab-as-an-undergraduate-researcher",
+          title: 'Joined PKU HMI Lab as an undergraduate researcher.',
           description: "",
           section: "News",},{id: "news-prodrive-and-echoarena-were-accepted-to-the-cvpr-2026-gigabrain-challenge-workshop",
           title: 'ProDrive and EchoArena were accepted to the CVPR 2026 GigaBrain Challenge Workshop.',
@@ -42,27 +35,11 @@ ninja.data = [{
           section: "News",},{id: "news-force-our-work-on-efficient-reinforcement-fine-tuning-for-vla-models-is-now-available-on-arxiv",
           title: 'FORCE, our work on efficient reinforcement fine-tuning for VLA models, is now available...',
           description: "",
-          section: "News",},{id: "news-joined-muka-robotics-as-a-research-intern-working-on-world-model-representation-learning-and-foundational-world-action-model-pretraining",
-          title: 'Joined Muka Robotics as a research intern, working on world-model representation learning and...',
-          description: "",
-          section: "News",},{id: "news-our-latest-action-conditioned-world-model-code-named-sisyphusworld-ranked-second-on-the-worldarena-leaderboard-and-was-featured-in-media-report-1-and-media-report-2",
-          title: 'Our latest action-conditioned world model, code-named SisyphusWorld, ranked second on the WorldArena leaderboard...',
-          description: "",
           section: "News",},{id: "projects-awesome-representation-for-world-models",
           title: 'Awesome Representation for World Models',
           description: "A collaborative survey and open-source knowledge base on representations for world models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-human-robot-tabletop-curling",
-          title: 'Human–Robot Tabletop Curling',
-          description: "A real-robot demo that applies a physical world model to interactive gameplay against a human.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_tabletop_curling/";
-            },},{id: "projects-robobrain-x0",
-          title: 'RoboBrain-X0',
-          description: "A cross-embodiment vision-language-action model trained across heterogeneous robot platforms.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_robobrain_x0/";
             },},{
         id: 'social-email',
         title: 'email',
