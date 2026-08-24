@@ -33,10 +33,8 @@ cv:
         end_date: Present
         summary: "Supervisor: Prof. Shanghang Zhang"
         highlights:
-          - "Leading **Token-World**, which studies direct action-conditioned simulation for VLA policies in compact visual-token space without intermediate RGB reconstruction."
-          - "Leading **VA-CLIP**, a reference-free verifier that learns action-video compatibility to evaluate and select embodied world-model rollouts."
-          - "Contributed to **LJM**, an action-conditioned world model that predicts robot-environment interaction latents before generating future videos."
-          - "First author on both under-review manuscripts; responsible for problem formulation, method design, experiments, and manuscript preparation."
+          - "Conduct research on world models and robot learning, with an emphasis on action-conditioned prediction and reliable evaluation for embodied agents."
+          - "Develop representation-learning and evaluation pipelines for connecting perception, prediction, and action."
 
       - company: Robotics and Computer Vision Lab, SUSTech
         position: Undergraduate Researcher
@@ -45,28 +43,13 @@ cv:
         summary: "Supervisors: Prof. Hong Zhang and Prof. Max Q.-H. Meng"
         highlights:
           - "Proposed **ProDrive**, a proactive autonomous-driving framework that jointly trains a planner and a BEV world model through ego-environment co-evolution; first author and lead researcher."
-          - "Co-led **AxisField-GS**, a feed-forward articulation-recovery framework that predicts dense Gaussian-level motion fields and recovers revolute joint axes from single-state semantic 3DGS assets; co-first author."
+          - "Conduct research on robot perception, 3D vision, and learning-based autonomous systems."
 
-    Selected Publications and Manuscripts:
+    Publications:
       - title: "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution"
         url: https://arxiv.org/pdf/2604.25329
         summary: "**Chuyao Fu**, Shengzhe Gan, Zhuoli Ouyang, Yuhan Rui, Xiaowei Chi, Sirui Han, Jiankun Wang, Hong Zhang"
         publisher: CVPR 2026 GigaBrain Challenge Workshop
-
-      - title: Learning Action-Video Compatibility as a Reference-Free Verifier for Embodied World Models
-        url: https://chuyaofu.github.io/assets/pdf/va_clip.pdf
-        summary: "**Chuyao Fu**, Xiaojie Zhang, Xiaowei Chi, Rongyu Zhang, Yuhan Rui, Jiajun Cao, Yike Guo, Sirui Han, Shanghang Zhang"
-        publisher: Under review
-
-      - title: "Token-World: Direct World Model Simulator for Vision-Language-Action Models"
-        url: https://chuyaofu.github.io/assets/pdf/token_world.pdf
-        summary: "**Chuyao Fu**, Xiaowei Chi, Haoran Li, Yuhan Rui, Zezhong Qian, Yu-Kai Wang, Xiaojie Zhang, Yunfan Lou, Hongyang Cheng, Yike Guo, Sirui Han, Shanghang Zhang"
-        publisher: Under review
-
-      - title: "AxisField-GS: Feed-Forward Articulation Recovery from Single-State Semantic Gaussian Assets"
-        url: https://chuyaofu.github.io/assets/pdf/axisfield_gs.pdf
-        summary: "Shengzhe Gan<sup>*</sup>, **Chuyao Fu**<sup>*</sup>, Yugong Wang, Guangcheng Chen, Hong Zhang. <sup>*</sup>Equal contribution"
-        publisher: Under review
 
       - title: "Mask World Model: Predicting What Matters for Robust Robot Policy Learning"
         url: https://arxiv.org/pdf/2604.19683
@@ -82,63 +65,6 @@ cv:
         url: https://arxiv.org/pdf/2606.26006
         summary: "Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, **Chuyao Fu**, Yaoxu Lyu, Xiaojie Zhang, Haoran Li, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang"
         publisher: arXiv preprint, 2026
-
-      - title: "LJM: A Latent Joint-conditional Model for Action-Conditioned Embodied World Model"
-        url: https://chuyaofu.github.io/assets/pdf/ljm.pdf
-        summary: "Kuangzhi Ge, Yu-Kai Wang, Yuhan Rui, Xiaojie Zhang, Hao Chen, Jiaming Liu, **Chuyao Fu**, Zhi Yang Chen, Tianze Zhou, Zhuoqun Wu, Athend Zhuoming Zhong, Chak-Wing Mak, Kevin Zhang, Xiaowei Chi, Shanghang Zhang, Sirui Han"
-        publisher: Under review
-
-    Industry Experience:
-      - company: Muka Robotics
-        company_url: https://chuyaofu.github.io/projects/#muka
-        position: Research Intern
-        location: Beijing
-        start_date: Jul. 2026
-        end_date: Present
-        highlights:
-          - "Developing representation learning techniques and data cleaning pipeline for foundational world-action-model pretraining."
-          - "Built a physical world model demo in which a robot observes, predicts, and plays tabletop curling against a human."
-
-      - company: XtalPi
-        company_url: https://chuyaofu.github.io/projects/#xtalpi
-        position: Research Intern, Future Chemistry Department
-        location: Shenzhen
-        start_date: Mar. 2026
-        end_date: Apr. 2026
-        highlights:
-          - "Trained and deployed VLA policies, including LingBot-VLA, π0, and π0.5, for robot manipulation in laboratory-automation settings."
-          - "Integrated perception, policy inference, and control on real robot platforms; conducted iterative evaluation and ablations to diagnose deployment failures."
-
-      - company: Beijing Academy of Artificial Intelligence
-        company_url: https://chuyaofu.github.io/projects/#baai
-        position: Research Intern, Embodied Multimodal Large Models Research Center
-        location: Beijing
-        start_date: Jun. 2025
-        end_date: Sep. 2025
-        highlights:
-          - "Processed large-scale embodied datasets, including AgiBot-World and DROID, for VLA pretraining; implemented action normalization, tokenization, and structured training-data conversion."
-          - "Reproduced representative VLA reinforcement-learning and robot-policy post-training frameworks; contributed to **FORCE** and the cross-embodiment **RoboBrain-X0** project."
-
-    Selected Projects:
-      - company: Open-Source Literature Curation
-        position: Awesome Representation for World Models
-        url: https://github.com/ChuyaoFu/Awesome-Representation-for-World-Models
-        start_date: Aug. 2026
-        end_date: Present
-        summary: Project Lead
-        highlights:
-          - "Currently lead a collaborative survey of representations for world models, coordinating lab members to curate literature around state and transition representations."
-          - "Designed a Cloudflare-based webpage workflow spanning literature review, taxonomy-based classification, and pull-request review for multi-contributor maintenance."
-
-      - company: Open-Source VLA Model
-        position: "RoboBrain-X0: Cross-Embodiment Vision-Language-Action Model"
-        url: https://github.com/FlagOpen/RoboBrain-X0
-        start_date: Jun. 2025
-        end_date: Sep. 2025
-        summary: Contributor
-        highlights:
-          - "Contributed to **RoboBrain-X0**, a unified VLA model for cross-embodiment action generation that supports heterogeneous robot platforms through a shared action-token representation."
-          - "Focused on the data pipeline, processing AgiBot-World and DROID with action normalization, tokenization, and structured conversion for large-scale VLA pretraining."
 
     Leadership and Service:
       - company: Class Committee
