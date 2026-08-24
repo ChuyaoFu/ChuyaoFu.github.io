@@ -13,7 +13,7 @@ nav_order: 2
 </p>
 
 <div class="industry-experience">
-  <section class="industry-card" aria-labelledby="baai-heading">
+  <section id="baai" class="industry-card" aria-labelledby="baai-heading">
     <header class="industry-card__header">
       <div class="industry-logo-panel">
         <img
@@ -94,7 +94,7 @@ nav_order: 2
 
   </section>
 
-  <section class="industry-card" aria-labelledby="xtalpi-heading">
+  <section id="xtalpi" class="industry-card" aria-labelledby="xtalpi-heading">
     <header class="industry-card__header">
       <div class="industry-logo-panel">
         <img
@@ -159,7 +159,7 @@ nav_order: 2
 
   </section>
 
-  <section class="industry-card" aria-labelledby="muka-heading">
+  <section id="muka" class="industry-card" aria-labelledby="muka-heading">
     <header class="industry-card__header">
       <div class="industry-logo-panel industry-logo-panel--dark">
         <img

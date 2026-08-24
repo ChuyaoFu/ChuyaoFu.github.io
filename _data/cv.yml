@@ -1,13 +1,15 @@
 cv:
   name: Chuyao Fu (Troy)
-  email: fucy2023@mail.sustech.edu.cn
-  phone: +86 153 4733 9211
+  email: fucy2023@berkeley.edu
   website: https://chuyaofu.github.io/
 
   social_networks:
     - network: GitHub
       username: ChuyaoFu
       url: https://github.com/ChuyaoFu
+    - network: Google Scholar
+      username: Chuyao Fu
+      url: https://scholar.google.com/citations?user=nz-evSgAAAAJ&hl=zh-CN
 
   sections:
     Education:
@@ -18,6 +20,11 @@ cv:
         highlights:
           - "GPA: 3.90/4.00 · Rank: 3/46"
           - "**Selected Coursework:** Data Structures and Algorithm Analysis, Probability and Statistics, Machine Learning, Robotic Motion and Control, Digital Signal Processing, Signals and Systems, Analog Circuits, Digital Circuits"
+
+      - institution: University of California, Berkeley
+        studyType: Visiting Student
+        start_date: Aug. 2026
+        end_date: Dec. 2026
 
     Research Experience:
       - company: HMI Lab, School of Computer Science, Peking University
@@ -42,42 +49,48 @@ cv:
 
     Selected Publications and Manuscripts:
       - title: "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution"
-        url: https://arxiv.org/abs/2604.25329
+        url: https://arxiv.org/pdf/2604.25329
         summary: "**Chuyao Fu**, Shengzhe Gan, Zhuoli Ouyang, Yuhan Rui, Xiaowei Chi, Sirui Han, Jiankun Wang, Hong Zhang"
         publisher: CVPR 2026 GigaBrain Challenge Workshop
 
       - title: Learning Action-Video Compatibility as a Reference-Free Verifier for Embodied World Models
+        url: https://chuyaofu.github.io/assets/pdf/va_clip.pdf
         summary: "**Chuyao Fu**, Xiaojie Zhang, Xiaowei Chi, Rongyu Zhang, Yuhan Rui, Jiajun Cao, Yike Guo, Sirui Han, Shanghang Zhang"
         publisher: Under review
 
       - title: "Token-World: Direct World Model Simulator for Vision-Language-Action Models"
+        url: https://chuyaofu.github.io/assets/pdf/token_world.pdf
         summary: "**Chuyao Fu**, Xiaowei Chi, Haoran Li, Yuhan Rui, Zezhong Qian, Yu-Kai Wang, Xiaojie Zhang, Yunfan Lou, Hongyang Cheng, Yike Guo, Sirui Han, Shanghang Zhang"
         publisher: Under review
 
       - title: "AxisField-GS: Feed-Forward Articulation Recovery from Single-State Semantic Gaussian Assets"
+        url: https://chuyaofu.github.io/assets/pdf/axisfield_gs.pdf
         summary: "Shengzhe Gan<sup>*</sup>, **Chuyao Fu**<sup>*</sup>, Yugong Wang, Guangcheng Chen, Hong Zhang. <sup>*</sup>Equal contribution"
         publisher: Under review
 
       - title: "Mask World Model: Predicting What Matters for Robust Robot Policy Learning"
-        url: https://arxiv.org/abs/2604.19683
+        url: https://arxiv.org/pdf/2604.19683
         summary: "Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, Rongyu Zhang, Yaoxu Lyu, Guoyu Song, **Chuyao Fu**, Haoxuan Xu, Pengwei Wang, Shanghang Zhang"
         publisher: ICML 2026
 
       - title: "EchoArena: Mutual Benchmarking of World Models and VLA Policies"
+        url: https://openaccess.thecvf.com/content/CVPR2026W/GigaBrainChallenge/papers/Wang_EchoArena_Learning_World_Models_for_Reliable_VLA_Policy_Evaluation_CVPRW_2026_paper.pdf
         summary: "Yu-Kai Wang, Kevin Zhang, Xiaowei Chi, Tianxing Chen, Siqiao Huang, **Chuyao Fu**, Tiecheng Guo, Peidong Jia, Yan Qin, Kuangzhi Ge, Siyuan Qian, Weishi Mi, Zezhong Qian, Jiajun Li, Qingpo Wuwu, Shanghang Zhang, Jian Tang"
         publisher: CVPR 2026 GigaBrain Challenge Workshop
 
       - title: "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation"
-        url: https://arxiv.org/abs/2606.26006
+        url: https://arxiv.org/pdf/2606.26006
         summary: "Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, **Chuyao Fu**, Yaoxu Lyu, Xiaojie Zhang, Haoran Li, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang"
         publisher: arXiv preprint, 2026
 
       - title: "LJM: A Latent Joint-conditional Model for Action-Conditioned Embodied World Model"
+        url: https://chuyaofu.github.io/assets/pdf/ljm.pdf
         summary: "Kuangzhi Ge, Yu-Kai Wang, Yuhan Rui, Xiaojie Zhang, Hao Chen, Jiaming Liu, **Chuyao Fu**, Zhi Yang Chen, Tianze Zhou, Zhuoqun Wu, Athend Zhuoming Zhong, Chak-Wing Mak, Kevin Zhang, Xiaowei Chi, Shanghang Zhang, Sirui Han"
         publisher: Under review
 
     Industry Experience:
       - company: Muka Robotics
+        company_url: https://chuyaofu.github.io/projects/#muka
         position: Research Intern
         location: Beijing
         start_date: Jul. 2026
@@ -87,6 +100,7 @@ cv:
           - "Built a physical world model demo in which a robot observes, predicts, and plays tabletop curling against a human."
 
       - company: XtalPi
+        company_url: https://chuyaofu.github.io/projects/#xtalpi
         position: Research Intern, Future Chemistry Department
         location: Shenzhen
         start_date: Mar. 2026
@@ -96,6 +110,7 @@ cv:
           - "Integrated perception, policy inference, and control on real robot platforms; conducted iterative evaluation and ablations to diagnose deployment failures."
 
       - company: Beijing Academy of Artificial Intelligence
+        company_url: https://chuyaofu.github.io/projects/#baai
         position: Research Intern, Embodied Multimodal Large Models Research Center
         location: Beijing
         start_date: Jun. 2025
