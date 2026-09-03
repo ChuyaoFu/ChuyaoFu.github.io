@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Published and publicly available research papers.
+description: Publications and ongoing research manuscripts.
 nav: true
 nav_order: 1
 ---

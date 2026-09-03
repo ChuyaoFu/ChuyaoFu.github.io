@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Student @ SUSTech · Computer Vision · Data Analysis
+subtitle: Undergraduate Researcher @ SUSTech · World Models · Reliable Embodied AI · Representation Learning
 
 profile:
   align: right
@@ -23,10 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Chuyao Fu, an undergraduate student in Electronic Information Engineering at the Southern University of Science and Technology (SUSTech). My academic interests include **computer vision**, **data analysis**, and **machine learning**, with a focus on understanding and organizing visual data.
+I am Chuyao Fu, an undergraduate student in Electronic Information Engineering at the Southern University of Science and Technology (SUSTech). I build predictive representations and learning systems for reliable physical autonomy, with a focus on **world models**, **vision-language-action models**, and **robot learning**.
 
-At SUSTech, I am advised by Prof. [**Qinghu Meng**](https://faculty.sustech.edu.cn/?tagid=mengqh&iscss=1&snapid=1&orderby=date&go=2&lang=en) and Prof. [**Hong Zhang**](https://faculty.sustech.edu.cn/?tagid=zhangh33&iscss=1&snapid=1&orderby=date&go=2). I also conduct research with the PKU HMI Lab under Prof. [**Shanghang Zhang**](https://cs.pku.edu.cn/info/1089/1747.htm).
+At SUSTech, I am advised by Prof. [**Qinghu Meng**](https://faculty.sustech.edu.cn/?tagid=mengqh&iscss=1&snapid=1&orderby=date&go=2&lang=en) and Prof. [**Hong Zhang**](https://faculty.sustech.edu.cn/?tagid=zhangh33&iscss=1&snapid=1&orderby=date&go=2). I also conduct research with the PKU HMI Lab under Prof. [**Shanghang Zhang**](https://cs.pku.edu.cn/info/1089/1747.htm). I am currently a research intern at Muka Robotics, working on world-model representation learning and foundational world action model pretraining.
 
-I am interested in developing practical, data-driven methods for visual understanding and analysis.
+My long-term goal is to connect perception, prediction, and action in systems that can adapt and operate over long horizons in the physical world.
 
 <!-- Write more about yourself here. You can describe your research interests, experiences, and goals. -->
