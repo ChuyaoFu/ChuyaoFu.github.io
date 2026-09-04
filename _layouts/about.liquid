@@ -4,14 +4,39 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
+      {% if page.name %}
+        {{ page.name }}
+      {% elsif site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.hero %}
+      <p class="desc">
+        <span class="hero-role">{{ page.hero.role }}</span><br>
+        <span class="hero-focus">{{ page.hero.focus }}</span><br>
+        <span class="hero-links">
+          {% assign social_email = site.data.socials.email %}
+          {% assign social_scholar = site.data.socials.scholar_userid %}
+          {% assign social_github = site.data.socials.github_username %}
+          {% if social_email %}
+            <a href="mailto:{{ social_email }}">Email</a>
+          {% endif %}
+          {% if social_scholar %}
+            {% if social_email %} · {% endif %}
+            <a href="https://scholar.google.com/citations?user={{ social_scholar }}&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          {% endif %}
+          {% if social_github %}
+            {% if social_email or social_scholar %} · {% endif %}
+            <a href="https://github.com/{{ social_github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          {% endif %}
+        </span>
+      </p>
+    {% else %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -42,10 +67,12 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      <section class="homepage-news">
+        <h2>
+          <a href="{{ '/news/' | relative_url }}">News</a>
+        </h2>
       {% include news.liquid limit=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->
@@ -58,9 +85,12 @@ layout: default
 
     <!-- Publications -->
     {% if page.selected_publications or page.publications %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
-          {% if page.selected_publications %}selected publications{% else %}publications{% endif %}
+      <h2 class="section-heading">
+        <a href="{{ '/publications/' | relative_url }}">
+          {% if page.selected_publications %}Selected Publications{% else %}Publications{% endif %}
+        </a>
+        <a class="section-link" href="{{ '/publications/' | relative_url }}">
+          All publications <i class="fa-solid fa-arrow-right fa-xs" aria-hidden="true"></i>
         </a>
       </h2>
       {% if page.selected_publications %}

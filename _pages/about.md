@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Researcher @ SUSTech · World Models · Reliable Embodied AI · Representation Learning
+name: <span class="font-weight-bold">Chuyao</span> Fu
+
+hero:
+  role: Undergraduate Researcher, SUSTech
+  focus: World Models · Reliable Embodied AI · Representation Learning
 
 profile:
   align: right
