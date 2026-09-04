@@ -92,7 +92,9 @@ body {
   }
 
   figure {
-    aspect-ratio: 3 / 4;
+    // The source portrait is landscape; this wider vertical crop keeps both
+    // shoulders visible while preserving the reference site's portrait feel.
+    aspect-ratio: 5 / 6;
     margin: 0;
     overflow: hidden;
   }
@@ -106,7 +108,7 @@ body {
     display: block;
     height: 100%;
     object-fit: cover;
-    object-position: center 24%;
+    object-position: 67% 24%;
     width: 100%;
   }
 }
