@@ -1,6 +1,6 @@
 ---
 layout: page
-title: industry experience
+title: Industry Experience
 permalink: /projects/
 description: Industry research experience in embodied AI, VLA systems, and world models.
 nav: true

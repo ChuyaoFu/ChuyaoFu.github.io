@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 hero_name: <span class="font-weight-bold">Chuyao</span> Fu
 
