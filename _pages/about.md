@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-name: <span class="font-weight-bold">Chuyao</span> Fu
+hero_name: <span class="font-weight-bold">Chuyao</span> Fu
 
 hero:
   role: Undergraduate Researcher, SUSTech
