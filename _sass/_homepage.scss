@@ -201,10 +201,19 @@ body {
         }
 
         .abbr-overlay {
+          background-color: var(--global-theme-color);
+          border-radius: 4px;
+          color: var(--global-card-bg-color) !important;
+          font-size: 0.8rem;
           left: 15px;
+          padding: 0.2em 0.4em;
           position: absolute;
           top: 0;
           z-index: 1;
+
+          a {
+            color: inherit;
+          }
         }
       }
 
