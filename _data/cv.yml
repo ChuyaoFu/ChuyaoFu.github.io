@@ -33,10 +33,10 @@ cv:
         end_date: Present
         summary: "Supervisor: Prof. Shanghang Zhang"
         highlights:
-          - "Leading **Token-World**, which studies direct action-conditioned simulation for VLA policies in compact visual-token space without intermediate RGB reconstruction."
+          - "Leading **Token-World**, a policy-oriented world model that predicts action-conditioned dynamics directly in compact VLM visual-token space, avoiding intermediate RGB reconstruction and reducing simulator step time to 0.359 s."
           - "Leading **VA-CLIP**, a reference-free verifier that learns action-video compatibility to evaluate and select embodied world-model rollouts."
           - "Contributed to **LJM**, an action-conditioned world model that predicts robot-environment interaction latents before generating future videos."
-          - "First author on both under-review manuscripts; responsible for problem formulation, method design, experiments, and manuscript preparation."
+          - "First author on both manuscripts; responsible for problem formulation, method design, experiments, and manuscript preparation."
 
       - company: Robotics and Computer Vision Lab, SUSTech
         position: Undergraduate Researcher
@@ -58,10 +58,10 @@ cv:
         summary: "**Chuyao Fu**, Xiaojie Zhang, Xiaowei Chi, Rongyu Zhang, Yuhan Rui, Jiajun Cao, Yike Guo, Sirui Han, Shanghang Zhang"
         publisher: Under review
 
-      - title: "Token-World: Direct World Model Simulator for Vision-Language-Action Models"
+      - title: "Token-World: Compact VLM Representations for Policy-Oriented World Modeling"
         url: https://chuyaofu.github.io/assets/pdf/token_world.pdf
         summary: "**Chuyao Fu**, Xiaowei Chi, Haoran Li, Yuhan Rui, Zezhong Qian, Yu-Kai Wang, Xiaojie Zhang, Yunfan Lou, Hongyang Cheng, Yike Guo, Sirui Han, Shanghang Zhang"
-        publisher: Under review
+        publisher: Submitted to ICRA 2027
 
       - title: "AxisField-GS: Feed-Forward Articulation Recovery from Single-State Semantic Gaussian Assets"
         url: https://chuyaofu.github.io/assets/pdf/axisfield_gs.pdf
