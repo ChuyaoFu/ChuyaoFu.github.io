@@ -60,7 +60,7 @@ cv:
 
       - title: "Token-World: Compact VLM Representations for Policy-Oriented World Modeling"
         url: https://chuyaofu.github.io/assets/pdf/token_world.pdf
-        summary: "**Chuyao Fu**, Xiaowei Chi, Haoran Li, Yuhan Rui, Zezhong Qian, Yu-Kai Wang, Xiaojie Zhang, Yunfan Lou, Hongyang Cheng, Yike Guo, Sirui Han, Shanghang Zhang"
+        summary: "**Chuyao Fu**, Xiaowei Chi, Yuhan Rui, Yu-Kai Wang, Zezhong Qian, Xiaojie Zhang, Yunfan Lou, Kevin Zhang, Kuangzhi Ge, Chak Wing Mak, Zhi Yang Chen, Athena Zhuoming Zhong, Hongyang Cheng, Haoran Li, Yike Guo, Sirui Han, Shanghang Zhang"
         publisher: Submitted to ICRA 2027
 
       - title: "AxisField-GS: Feed-Forward Articulation Recovery from Single-State Semantic Gaussian Assets"
