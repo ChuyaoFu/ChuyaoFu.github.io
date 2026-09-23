@@ -166,29 +166,33 @@ body {
 }
 
 .publications {
-  margin-top: 1.25rem;
+  margin-top: 0.75rem;
 
   ol.bibliography {
     li {
       margin-bottom: 0;
       margin-right: 0;
-      padding: 1.45rem 0 1.55rem;
+      padding: 1rem 0;
       border-top: 1px solid var(--global-divider-color);
 
       &:first-child {
         border-top: 0;
-        padding-top: 0.75rem;
+        padding-top: 0.25rem;
       }
 
       .publication-entry {
-        align-items: flex-start;
-        row-gap: 0.9rem;
+        align-items: start;
+        display: grid;
+        gap: 0.65rem 1.25rem;
+        grid-template-columns: minmax(0, 1fr);
+
+        &.has-preview {
+          grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
+        }
       }
 
       .preview-container {
-        max-width: 15rem;
-        padding-right: 1.5rem;
-        position: relative;
+        min-width: 0;
 
         figure {
           margin: 0;
@@ -197,55 +201,45 @@ body {
         .preview {
           display: block;
           height: auto;
-          max-width: 14rem;
+          max-width: 100%;
           min-width: 0;
+          object-fit: contain;
           width: 100%;
-        }
-
-        .abbr-overlay {
-          background-color: var(--global-theme-color);
-          border-radius: 4px;
-          color: var(--global-card-bg-color) !important;
-          font-size: 0.8rem;
-          left: 15px;
-          padding: 0.2em 0.4em;
-          position: absolute;
-          top: 0;
-          z-index: 1;
-
-          a {
-            color: inherit;
-          }
         }
       }
 
-      [id] {
-        padding-left: 1.25rem;
+      .publication-details {
+        min-width: 0;
       }
 
       .title {
         font-size: 1.05rem;
         font-weight: 600;
-        line-height: 1.45;
-        margin-bottom: 0.35rem;
+        line-height: 1.35;
+        margin-bottom: 0.2rem;
       }
 
       .author {
-        line-height: 1.65;
+        line-height: 1.4;
       }
 
       .periodical {
         margin-left: 0 !important;
-        margin-top: 0.25rem;
+        margin-top: 0.15rem;
+        line-height: 1.4;
       }
 
       .links {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        gap: 0.45rem;
+        gap: 0.35rem;
         margin-left: 0;
-        margin-top: 0.7rem;
+        margin-top: 0.4rem;
+
+        &:empty {
+          display: none;
+        }
 
         a.btn {
           border-radius: 6px;
@@ -253,6 +247,7 @@ body {
           font-size: 0.85rem;
           justify-content: center;
           margin: 0;
+          padding: 0.15rem 0.7rem;
           transition: all 0.2s ease;
 
           &:hover {
@@ -269,16 +264,10 @@ body {
 @media (max-width: 767.98px) {
   .publications {
     ol.bibliography li {
-      padding: 1.25rem 0;
+      padding: 1rem 0;
 
-      .preview-container {
-        max-width: 15rem;
-        padding-left: 0;
-        padding-right: 0;
-      }
-
-      [id] {
-        padding-left: 15px;
+      .publication-entry.has-preview {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
   }
