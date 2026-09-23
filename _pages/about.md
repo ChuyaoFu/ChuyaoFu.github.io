@@ -4,9 +4,7 @@ title: About
 permalink: /
 hero_name: <span class="font-weight-bold">Chuyao</span> Fu
 
-hero:
-  role: Undergraduate Researcher, SUSTech
-  focus: World Models · Reliable Embodied AI · Representation Learning
+hero: true
 
 profile:
   align: right
