@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-joined-pku-hmi-lab-and-the-embodied-multimodal-large-model-research-center-at-baai-as-an-undergraduate-research-intern",
-          title: 'Joined PKU HMI Lab and the Embodied Multimodal Large Model Research Center at...',
+        },{id: "news-i-joined-the-pku-hmi-lab-and-the-embodied-multimodal-large-model-research-center-at-baai-as-an-undergraduate-research-intern",
+          title: 'I joined the PKU HMI Lab and the Embodied Multimodal Large Model Research...',
           description: "",
           section: "News",},{id: "news-prodrive-and-echoarena-were-accepted-to-the-cvpr-2026-gigabrain-challenge-workshop",
           title: 'ProDrive and EchoArena were accepted to the CVPR 2026 GigaBrain Challenge Workshop.',
@@ -42,8 +42,8 @@ ninja.data = [{
           section: "News",},{id: "news-force-our-work-on-efficient-reinforcement-fine-tuning-for-vla-models-is-now-available-on-arxiv",
           title: 'FORCE, our work on efficient reinforcement fine-tuning for VLA models, is now available...',
           description: "",
-          section: "News",},{id: "news-our-latest-action-conditioned-world-model-code-named-sisyphusworld-ranked-second-on-the-worldarena-leaderboard-and-was-featured-in-media-report-1-and-media-report-2",
-          title: 'Our latest action-conditioned world model, code-named SisyphusWorld, ranked second on the WorldArena leaderboard...',
+          section: "News",},{id: "news-our-latest-action-conditioned-world-model-code-named-sisyphusworld-reached-2-on-the-worldarena-leaderboard-and-was-featured-by-synced",
+          title: 'Our latest action-conditioned world model, code-named SisyphusWorld, reached #2 on the WorldArena leaderboard...',
           description: "",
           section: "News",},{id: "projects-awesome-representation-for-world-models",
           title: 'Awesome Representation for World Models',
