@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-joined-the-pku-hmi-lab-and-the-embodied-multimodal-large-model-research-center-at-baai-as-an-undergraduate-research-intern",
-          title: 'I joined the PKU HMI Lab and the Embodied Multimodal Large Model Research...',
+        },{id: "news-i-joined-the-pku-hmi-lab-as-an-undergraduate-research-intern",
+          title: 'I joined the PKU HMI Lab as an undergraduate research intern.',
           description: "",
           section: "News",},{id: "news-prodrive-and-echoarena-were-accepted-to-the-cvpr-2026-gigabrain-challenge-workshop",
           title: 'ProDrive and EchoArena were accepted to the CVPR 2026 GigaBrain Challenge Workshop.',
